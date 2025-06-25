@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мед от Пчёла</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#hero-content" class="active">Главная</a>
+        <a href="#popular">Виды меда</a>
+        <a href="#callback">Обратный звонок</a>
+    </nav>
+    
+    <div class="hero" id="hero-content">
+        <div class="hero-content">
+            <h1>Мед от Пчёла</h1>
+            <p>Наша пасека производит лучший мед в мире</p>
+            <button class="primary-btn">Посмотреть мед</button>
+        </div>
+        <div class="bee-logo">
+            <img src="header-bee.svg" alt="Пчела логотип">
+        </div>
+    </div>
+
+    <section class="popular" id="popular">
+        <h2>Самые популярные</h2>
+        <div class="honey-cards">
+            <div class="honey-card">
+                <img src="honey1.png" alt="Мед липовый">
+                <h3>Мед липовый</h3>
+                <p>лучший, ЛУЧШИЙ липовый медовый насыщенный мед из насыщения липы! ОЧЕНЬ медовый!</p>
+                <button class="add-btn">добавить</button>
+            </div>
+            <div class="honey-card">
+                <img src="honey2.png" alt="Мед облепиховый">
+                <h3>Мед облепиховый</h3>
+                <p>лучший, ЛУЧШИЙ липовый медовый насыщенный мед из насыщения липы! ОЧЕНЬ медовый!</p>
+                <button class="add-btn">добавить</button>
+            </div>
+            <div class="honey-card">
+                <img src="honey3.png" alt="Мед акации">
+                <h3>Мед акации</h3>
+                <p>лучший, ЛУЧШИЙ липовый медовый насыщенный мед из насыщения липы! ОЧЕНЬ медовый!</p>
+                <button class="add-btn">добавить</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="callback" id="callback">
+        <h2>Заказать обратный звонок</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="email" placeholder="Ваша почта" required>
+            <div class="checkbox">
+                <input type="checkbox" id="agreement" required>
+                <label for="agreement">Даю согласие на обработку данных</label>
+            </div>
+            <button type="submit" class="primary-btn">Заказать звонок</button>
+        </form>
+    </section>
+</body>
+</html>
